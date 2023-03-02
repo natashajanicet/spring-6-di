@@ -1,7 +1,9 @@
 package natashalearn.springframework.spring6di.controllers;
 
 import natashalearn.springframework.spring6di.services.GreetingService;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
 
